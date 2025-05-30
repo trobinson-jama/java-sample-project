@@ -1,6 +1,0 @@
-{
-  "testCases": [
-    "cases/api-gateway-input.json",
-    "cases/api-gateway-output.json"
-  ]
-}
