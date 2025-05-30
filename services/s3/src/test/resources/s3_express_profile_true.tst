@@ -1,2 +1,0 @@
-[profile s3Express_auth]
-s3_disable_express_session_auth=true

@@ -1,3 +1,0 @@
-[default]
-s3_use_arn_region = fAlSE
-s3_disable_multiregion_access_points = tRuE
