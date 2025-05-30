@@ -1,4 +1,0 @@
-ignore:
-  - "codegen-lite/test/resources/**/*"
-  - "codegen/src/test/resources/**/*"
-  - "test/**/*"
