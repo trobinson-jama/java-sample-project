@@ -22,14 +22,17 @@ public final class ArchUtils {
     private ArchUtils() {
     }
 
+    // @satisfies RRD-SREQ-3
     public static Pattern classNameToPattern(Class<?> clazz) {
         return Pattern.compile(".*/" + clazz.getCanonicalName().replace('.', '/') + ".class");
     }
 
+    // @verifies RRD-SREQ-5, RRD-SREQ-6
     public static Pattern classNameToPattern(String className) {
         return Pattern.compile(".*/" + className.replace('.', '/') + ".class");
     }
 
+    //@description This method should reside in the same root package
     public static boolean resideInSameRootPackage(String pkg1, String pkg2) {
         if (pkg1.startsWith(pkg2) || pkg2.startsWith(pkg1)) {
             return true;
