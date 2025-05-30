@@ -1,2 +1,0 @@
-[profile regional_s3_endpoint]
-s3_us_east_1_regional_endpoint=regional
