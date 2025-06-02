@@ -17,6 +17,7 @@ package software.amazon.awssdk.archtests;
 
 import java.util.regex.Pattern;
 
+//@description This is a description for the ArchUtils class
 public final class ArchUtils {
 
     private ArchUtils() {
